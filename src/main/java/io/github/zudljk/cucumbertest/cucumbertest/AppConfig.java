@@ -1,4 +1,4 @@
-package com.maihiro.cucumbertest;
+package io.github.zudljk.cucumbertest.cucumbertest;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,8 +9,8 @@ public class AppConfig {
 
   @Bean
   @Scope("request")
-  public DataObjectService dataObjectService() {
-    return new DataObjectService();
+  public ExampleService exampleService() {
+    return new ExampleService();
   }
 
   @Bean("dependency")
