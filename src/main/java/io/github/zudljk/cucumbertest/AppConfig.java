@@ -1,4 +1,4 @@
-package io.github.zudljk.cucumbertest.cucumbertest;
+package io.github.zudljk.cucumbertest;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

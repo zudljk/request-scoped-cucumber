@@ -1,4 +1,4 @@
-package io.github.zudljk.cucumbertest.cucumbertest;
+package io.github.zudljk.cucumbertest;
 
 import io.cucumber.spring.CucumberContextConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package io.github.zudljk.cucumbertest.cucumbertest;
+package io.github.zudljk.cucumbertest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package io.github.zudljk.cucumbertest.cucumbertest;
+package io.github.zudljk.cucumbertest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

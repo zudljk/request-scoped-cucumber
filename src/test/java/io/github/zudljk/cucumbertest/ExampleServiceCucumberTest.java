@@ -1,4 +1,4 @@
-package io.github.zudljk.cucumbertest.cucumbertest;
+package io.github.zudljk.cucumbertest;
 
 import io.cucumber.junit.Cucumber;
 import org.junit.runner.RunWith;
