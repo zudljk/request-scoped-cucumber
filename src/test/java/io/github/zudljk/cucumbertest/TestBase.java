@@ -12,7 +12,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @WebAppConfiguration
 @TestExecutionListeners(ClassLevelServletTestExecutionListener.class)
 // extend the Spring class to get the default TestExecutionListeners
-public class TestBase extends AbstractJUnit4SpringContextTests {
+public abstract class TestBase extends AbstractJUnit4SpringContextTests {
 
   @Autowired
   public ExampleService underTest;
