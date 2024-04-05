@@ -6,3 +6,6 @@ The solution is to implement a class-level TestExecutionListener and delegate to
 
 Refer to this StackOverflow question for an in-detail analysis of the problem:
 https://stackoverflow.com/questions/63373893/request-scoped-beans-not-working-in-spring-tests-with-cucumber
+
+NOTE:
+This workaround applies to Spring 4.x and Cucumber 6.x. No tests have been made to check whether this workaround is still necessary in later versions of either.
